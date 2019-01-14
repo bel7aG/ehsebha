@@ -6,7 +6,7 @@ import ExpenseDashboard from './ExpenseDashboard'
 import Help from './Help'
 import Navigation from './Navigation'
 import NavItem from './NavItem'
-import NotFound from './Header'
+import NotFound from './NotFound'
 import Router from './Router'
 
 

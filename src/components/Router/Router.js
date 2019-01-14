@@ -8,9 +8,9 @@ const Router = () => (
       <Header />
       <Switch>
         <Route exact path="/" component={ExpenseDashboard} />
-        <Route exact path="/create" component={AddExpense} />
-        <Route exact path="/edit" component={EditExpense} />
-        <Route exact path="/help" component={Help} />
+        <Route path="/create" component={AddExpense} />
+        <Route path="/edit" component={EditExpense} />
+        <Route path="/help" component={Help} />
         <Route component={NotFound} />
       </Switch>
     </Fragment>
