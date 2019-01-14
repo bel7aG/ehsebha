@@ -1,8 +1,9 @@
 import React from 'react'
+import { Router } from '../'
 
 const App = () => (
-  <div className="app">
-    <h1>welcom</h1>
+  <div className="container">
+    <Router />
   </div>
 )
 

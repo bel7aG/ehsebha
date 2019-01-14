@@ -4,7 +4,10 @@ import AddExpense from './AddExpense'
 import EditExpense from './EditExpense'
 import ExpenseDashboard from './ExpenseDashboard'
 import Help from './Help'
+import Navigation from './Navigation'
+import NavItem from './NavItem'
 import NotFound from './Header'
+import Router from './Router'
 
 
 export {
@@ -14,5 +17,8 @@ export {
   EditExpense,
   ExpenseDashboard,
   Help,
-  NotFound
+  Navigation,
+  NavItem,
+  NotFound,
+  Router
 }
