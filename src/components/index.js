@@ -4,11 +4,10 @@ import AddExpense from './AddExpense'
 import EditExpense from './EditExpense'
 import ExpenseDashboard from './ExpenseDashboard'
 import Help from './Help'
+import Main from './Main'
 import Navigation from './Navigation'
 import NavItem from './NavItem'
 import NotFound from './NotFound'
-import Router from './Router'
-
 
 export {
   App as default,
@@ -17,8 +16,8 @@ export {
   EditExpense,
   ExpenseDashboard,
   Help,
+  Main,
   Navigation,
   NavItem,
   NotFound,
-  Router
 }

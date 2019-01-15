@@ -1,8 +1,13 @@
 // base
 @import "./base/base";
-@import "./base/typography.scss";
+@import "./base/typography";
+@import "./base/animations";
 
-// Components
+// components
+@import "./components/Main";
+
+// components/Header
 @import "./components/Header/Header";
 @import "./components/Header/Navigation";
 @import "./components/Header/NavItem";
+

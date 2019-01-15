@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router } from '../'
+import Router from '../../router'
 
 const App = () => (
   <div className="container">

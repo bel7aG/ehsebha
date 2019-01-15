@@ -1,10 +1,9 @@
 .header {
   position: relative;
   background-color: #000000;
-  color: #eee;
-  height: 7rem;
-  margin-bottom: 4rem;
-  border-bottom: 1px solid #444;
+  color: #84f576;
+  height: 8rem;
+  border-bottom: 1px solid rgba(#84f576, 0.15);
 
   nav, nav > ul, li, a {
     height: 100%;
@@ -25,7 +24,6 @@
       li {
         flex: 1;
         transition: all .2s;
-        font-size: 2rem;
         position: relative;
 
         &::after, &::before, > a::after, a::before {
@@ -54,7 +52,9 @@
         > a {
           position: relative;
           height: 100%;
-          
+          font-size: 1.67rem;
+          text-align: center;
+                   
           &::before {
             left: -1px;
             top: 0;
@@ -66,9 +66,10 @@
           }
         }
         &:hover {
-          background-color: #111;
+          background-color: #020e0f;
           color: #eff;
           cursor: pointer;
+          letter-spacing: .32px;
         }
       }
     }

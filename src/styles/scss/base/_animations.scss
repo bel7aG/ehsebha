@@ -1,0 +1,26 @@
+@keyframes in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  
+  50% {
+    opacity: 100%;
+  }
+  
+  100% {
+    transform: scale(.91);
+    opacity: 100%;
+  }
+}
+
+@keyframes main {
+  0% {
+    
+  }
+  
+  100% {
+    
+  }
+}
+

@@ -1,9 +1,12 @@
 import React from 'react'
 
-const EditExpense = () => (
-  <div>
-    Edit Expense
-  </div>
-)
+const EditExpense = ({ match }) => {
+  const { params } = match 
+  return (
+    <div>
+      Welcom to expense {params.id}
+    </div>  
+  )
+}
 
 export default EditExpense
